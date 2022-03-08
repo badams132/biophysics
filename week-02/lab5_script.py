@@ -24,7 +24,7 @@ HIVdata=np.loadtxt('HIVseries/HIVseries.csv' , delimiter=',')
 #print(HIVdata)
 
 time1=HIVdata[0:17:1,0]  # slice
-#print(time1)
+print(time1)
 
 concentration=HIVdata[0:17:1,1]
 #print(concentration)
